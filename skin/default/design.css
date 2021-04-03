@@ -1,0 +1,208 @@
+html {
+    background-color:rgb(245, 245, 245);
+}
+
+html a {
+    text-decoration:none;
+}
+
+html a:hover {
+    text-decoration:underline;
+    color:rgb(30, 30, 180);
+}
+div#title {
+    text-align:center;
+    margin-top:-1.5em;
+}
+div#title img {
+    width: 75px;
+    height: 75px;
+    display:inline;
+    margin-top:1em;
+    margin-bottom:-1.25em;
+}
+
+div#title h1 {
+    margin-left:0.5em;
+    color:rgb(30, 30, 180);
+    font-size:40px;
+    display:inline;
+}
+
+div#summary {
+    text-align:center;
+}
+
+div#leftmenu {
+    width:16em;
+    border-radius: 3px;
+    background-color:rgba(255, 255, 255, 0.9);
+    border:dashed 1px rgb(175, 175, 175);
+    margin:5px 0 5px 25px;
+    padding:5px 10px 5px 10px;
+}
+
+div#contents {
+    width:100%;
+    border-radius: 3px;
+    background-color:rgba(255, 255, 255, 0.9);
+    border:dashed 1px rgb(175, 175, 175);
+    margin:5px 25px 5px 25px;
+    padding:5px 10px 5px 10px;
+}
+
+div#body {
+    margin:5px 10px 5px 10px;
+    display:flex;
+
+}
+
+div#body h2 {
+    font-size: 25px;
+    color: rgb(175, 175, 175);
+    padding:.1em;
+    border-bottom:solid rgb(175, 175, 175) 2px;
+    border-left:solid rgb(175, 175, 175) 15px;
+    margin:0 0 .5em 0;
+}
+
+div#body h3 {
+    border-bottom:1px solid rgb(175, 175, 175);
+    border-left:10px solid rgb(175, 175, 175);
+    border-top:1px solid rgb(175, 175, 175);
+    border-right:1px solid rgb(175, 175, 175);
+    color:black;
+    padding:.3em;
+    margin:0 0 .5em 0;
+}
+
+div#body h4 {
+    border-bottom:2px solid rgb(175, 175, 175);
+    border-left:5px solid rgb(175, 175, 175);
+    color:black;
+    padding:.3em;
+    margin:0 0 .5em 0;
+}
+
+div#body h5 , div#body h6 {
+    color:inherit;
+    background-color:rgb(175, 175, 175);
+    padding:.3em;
+    border:0;
+    margin:0 0 .5em 0;
+}
+
+div#items {
+    padding:0 50px 0 50px;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div#item {
+    width:350px;
+    height:280px;
+    border:solid rgb(150, 150, 150) 1px;
+    border-radius: 5px;
+    background-color:rgb(250, 250, 250);
+    margin:10px 10px 10px 10px;
+    position:relative;
+    z-index:1;
+    flex-grow:1;
+}
+
+div#item a {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    text-indent:-999px;
+    z-index:2;
+}
+
+div#item:hover {
+    opacity:0.8;
+    transform:scale(1.05);
+    transition-duration:0.3s;
+}
+
+div#menu_item:hover {
+    opacity:0.8;
+    transform:scale(1.05);
+    transition-duration:0.3s;
+}
+
+div#item_body {
+    margin:5px 5px 0 5px;
+}
+
+div#item_body div#image {
+    float:left;
+    margin:0 15px 15px 0;
+}
+
+div#item_body img {
+    margin-top:-15px;
+    width:200px;
+    height:200px;
+    max-width:100%;
+}
+
+div#item_body p {
+    margin-bottom:15px;
+    line-height:1.6em;
+    font-size:12px;
+    color:rgb(50, 50, 50);
+}
+
+div#leftmenu div#menu_item {
+    width:90%;
+    height:95px;
+    border:solid rgb(150, 150, 150) 1px;
+    background-color:rgb(250, 250, 250);
+    margin:10px 10px 10px 10px;
+    position:relative;
+    z-index:1;
+    flex-grow:1;
+}
+
+div#leftmenu div#menu_item a {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    text-indent:-999px;
+    z-index: 2;
+}
+
+div#leftmenu div#menu_item div#image {
+    float:left;
+    margin:0 15px 15px 0;
+}
+
+div#leftmenu div#menu_item img {
+    width:70px;
+    height:70px;
+    max-width:100%;
+}
+
+div#leftmenu div#menu_item p {
+    line-height:1.6em;
+    font-size:12px;
+    color:rgb(30, 30, 180);
+}
+
+div#leftmenu div#menu_item:hover {
+    line-height:1.6em;
+    font-size:12px;
+    color:rgb(30, 30, 180);
+    text-decoration:underline;
+}
+
+div#footer {
+    padding-left:50px;
+    font-size:12px;
+}
+
