@@ -1,0 +1,61 @@
+<p>ABC</p>
+
+<h2>ABC</h2>
+
+<h3>ABC</h3>
+
+<h4>ABC</h4>
+
+<h5>ABC</h5>
+
+<h6>ABC</h6>
+
+<pre>
+ABC</pre>
+
+<address>ABC</address>
+
+<div>ABC</div>
+
+<p><strong>ABC</strong></p>
+
+<p><em>ABC</em></p>
+
+<p><u>ABC</u></p>
+
+<p><s>ABC</s></p>
+
+<p><sub>ABC</sub></p>
+
+<p><sup>ABC</sup></p>
+
+<p><span style="color:#e74c3c;"><span style="font-size:26px;"><span style="background-color:#3498db;">ABC</span></span></span></p>
+
+<p><span style="font-size:26px;">Left</span></p>
+
+<p style="text-align: center;">Center</p>
+
+<p style="text-align: right;">RIGHT</p>
+
+<p style="text-align: justify;">All</p>
+
+<p><img alt="smiley" height="23" src="http://localhost/myblogs/libs/ckeditor/plugins/smiley/images/regular_smile.png" title="smiley" width="23" /></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>

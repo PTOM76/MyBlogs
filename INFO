@@ -1,0 +1,7 @@
+名称:MyBlogs
+バージョン:0.1
+作者:ぴたん
+URL:http://pkom.ml/?MyBlogs
+種類:ブログ,CMS
+設定ファイル:config.ini.php
+プラグインファイル:plugins/xxx.php
