@@ -1,21 +1,19 @@
 <?php
 /*--------------------------------
- @id latest_pages
- @name LatestPageList
+ @id pluglist
+ @name PluginList
  @author K
  @copyright 2021-2021 K
  @license GPLv3
 --------------------------------*/
 
-define('PLUGIN_LATEST_PAGES_MAX_COUNT', 20);
-define('PLUGIN_LATEST_PAGES_HIDEPAGES', 'top'); // 「,」で区切る
-
 class plugin_pluglist
 {
     public function convert(){
-        $txt = file_get_contents(CACHE_PATH . cache_page_dates_file);
-        preg_match_all("/'(.*?)','(.*?)'/u", $txt, $files, PREG_SET_ORDER);
-        $hidepages = explode("," ,PLUGIN_LATEST_PAGES_HIDEPAGES);
+        
+        $txt = file_get_contents(PLUGIN_PATH . cache_page_dates_file);
+        //preg_match_all("/'(.*?)','(.*?)'/u", $txt, $files, PREG_SET_ORDER);
+        //$hidepages = explode("," ,PLUGIN_LATEST_PAGES_HIDEPAGES);
         $_bloglisthtml = "";
         $count = 0;
         foreach ($files as $file) {
